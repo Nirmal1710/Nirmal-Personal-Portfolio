@@ -79,13 +79,13 @@ export default function Home() {
               {/* Social Links */}
               <div className="social-links">
                 <a href="https://github.com/Nirmal1710" target="_blank" rel="noopener noreferrer" className="social-icon">
-                  <FiGithub />
+                  <FiGithub size={20}/>
                 </a>
                 <a href="https://www.linkedin.com/in/nirmal-s-samson-76481a316/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                  <FiLinkedin />
+                  <FiLinkedin size={20}/>
                 </a>
                 <a href="mailto:nirmalsamson1017@gmail.com" className="social-icon">
-                  <FiMail />
+                  <FiMail size={20}/>
                 </a>
                 
               </div>

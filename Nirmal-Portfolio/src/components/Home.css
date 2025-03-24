@@ -87,15 +87,15 @@ body {
     margin-right: 30px;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    background-color: transparent;
-    color: black;
+    background-color: var(--primary-color);
+    color: white;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
 .resume-button:hover {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
 }
 
 /* ===== Mobile Menu Button (Hamburger) ===== */
