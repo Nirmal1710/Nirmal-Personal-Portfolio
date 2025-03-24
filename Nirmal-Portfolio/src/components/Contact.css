@@ -154,7 +154,7 @@
 }
 
 .submit-button:hover {
-  background-color: var(--button-hover);
+  color: black;
 }
 
 @media (min-width: 768px) {
