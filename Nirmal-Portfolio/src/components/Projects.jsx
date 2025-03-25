@@ -17,7 +17,7 @@ export default function Projects() {
         image: crowd,
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js","Postman API","JWT Token","Axios"],
       githubLink: "https://github.com/Nirmal1710/Crowd-Funding-Website-.git",
-      liveLink: "https://example.com",
+      // liveLink: "https://example.com",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default function Projects() {
       image: safeKerala,
       technologies: ["Python", "Django", "Sqlite3", "HTML", "CSS","Android" ],
       githubLink: "https://github.com/Nirmal1710/Safe_Kerala.git",
-      liveLink: "https://example.com",
+      //liveLink: "https://example.com",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ export default function Projects() {
       image: netflix,
       technologies: ["HTML", "CSS", "Bootstrap"],
       githubLink: "https://github.com/Nirmal1710/Netflix-static-website-project.git",
-      liveLink: "https://example.com",
+      //liveLink: "https://example.com",
     },
   ]
 
@@ -67,13 +67,13 @@ export default function Projects() {
                 </div>
                 <div className="project-links">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                  <FaGithub size={18}/>
-                    <span>Code</span>
+                  <FaGithub size={22}/>
+                    <span><u>Github Code</u></span>
                   </a>
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  {/* <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">
                     <FaExternalLinkAlt size={18} />
                     <span>Live Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

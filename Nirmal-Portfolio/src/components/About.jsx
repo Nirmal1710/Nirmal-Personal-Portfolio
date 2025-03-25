@@ -20,14 +20,17 @@ export default function About() {
           <div className="about-text">
             <h3 className="about-subtitle">Who I Am</h3>
             <p className="about-description">
-              I'm a passionate software developer with a strong foundation in web technologies and a keen eye for
-              creating engaging user experiences. With a background in computer science and several years of hands-on
-              experience, I specialize in building responsive, accessible, and performant web applications.
+            I am Nirmal S Samson, a passionate Full Stack Developer skilled in MERN stack, Python, and Java. 
+            I specialize in building accessible, responsive, and performant web applications using modern technologies.
+            With expertise in React.js, Express.js, MongoDB, and Node.js, I develop seamless user experiences.
+            I am also experienced in Django, SQL, and API development.
+
+
             </p>
             <p className="about-description">
-              My journey in software development began during my university years, where I discovered my passion for
-              turning ideas into functional and beautiful digital experiences. Since then, I've worked on various
-              projects, from small business websites to complex enterprise applications.
+            🎓 <strong>Education</strong> <br />
+            I hold a Master's in Computer Application from the University of Kerala <strong>(65%)</strong> and a Bachelor's in Computer Science from the University of Kerala <strong>(62.69%)</strong>, 
+            where I developed a strong foundation in software development, web technologies, and database management.
             </p>
             <div className="personal-info">
               <div className="info-item">
